@@ -1,0 +1,28 @@
+{
+  "name": "dockertest",
+  "version": "1.0.0",
+  "description": "An example program to try out Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpaulsoria/dockerTest.git"
+  },
+  "author": "dpaulsoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpaulsoria/dockerTest/issues"
+  },
+  "homepage": "https://github.com/dpaulsoria/dockerTest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
